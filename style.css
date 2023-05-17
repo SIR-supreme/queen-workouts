@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: gold;
+}
+
+h1 {
+  color: gold;
+}
+
+#exercise-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercise-item {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: gold;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+}
+
+.exercise-item:hover {
+  background-color: #ffd700;
+  color: black;
+}
+
+#exercise-description {
+  margin-top: 20px;
+  font-style: italic;
+}
